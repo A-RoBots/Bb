@@ -1,18 +1,17 @@
 #!name=Emby 专用多点分流模块
-#!desc=自动创建 HK/US/CN 策略组并关联最新 GitHub 规则集
+#!desc=自动创建 HK/US/CN 策略组并关联最新规则集
 
 [Proxy Group]
-# 这里的名字（左边）必须和下面 Rule 里的名字一模一样
-# 这里的名字（右边）必须和你 Surge 首页现有的卡片名字一模一样
+# 1. 这一段负责“创建”卡片。如果这一段报错，下面的规则就找不到出口。
 Emby-Hk-Node = select, 香港节点, DIRECT
 Emby-Us-Node = select, 美国节点, DIRECT
 Emby-Cn-Node = select, DIRECT, 兜底分流
 
 [Rule]
-# 引用 GitHub 规则集，并在末尾指定刚才创建的组
+# 2. 这一段负责“指路”。末尾的名字必须严格对应上面的创建的名字。
 RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Hk.list,Emby-Hk-Node
 RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Us.list,Emby-Us-Node
 RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Cn.list,Emby-Cn-Node
 
-# 域名分流
+# 域名规则示例
 DOMAIN-SUFFIX,emby.media,Emby-Hk-Node
