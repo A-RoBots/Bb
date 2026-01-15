@@ -75,11 +75,11 @@ DOMAIN-SUFFIX,6.emby.yun
 DOMAIN-SUFFIX,3.emby.yun
 
 #不吃香菜
-DOMAIN,E.iemby.cn,DIRECT
-DOMAIN,a.l0323.top,DIRECT
+DOMAIN,E.iemby.cn
+DOMAIN,a.l0323.top
 
 #ETFLIX
-DOMAIN,embyty.entertang.work,DIRECT
+DOMAIN,embyty.entertang.work
 
 
 
