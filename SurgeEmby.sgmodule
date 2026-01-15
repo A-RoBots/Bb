@@ -1,17 +1,19 @@
-#!name=Emby 专用多点分流模块
-#!desc=自动创建 HK/US/CN 策略组并关联最新规则集
-
-[Proxy Group]
-# 1. 这一段负责“创建”卡片。如果这一段报错，下面的规则就找不到出口。
-Emby-Hk-Node = select, 香港节点, DIRECT
-Emby-Us-Node = select, 美国节点, DIRECT
-Emby-Cn-Node = select, DIRECT, 兜底分流
+#!name=Emby Network Optimization
+#!desc=针对 Emby 媒体服务进行的全球分流优化模块。需手动创建 Emby-Hk, Emby-Us, Emby-Cn 策略组以实现精准调度。
+#!system=ios
 
 [Rule]
-# 2. 这一段负责“指路”。末尾的名字必须严格对应上面的创建的名字。
-RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Hk.list,Emby-Hk-Node
-RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Us.list,Emby-Us-Node
-RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Cn.list,Emby-Cn-Node
+# === Emby 规则集调度 ===
+# 关联香港节点 (Emby-Hk)
+RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Hk.list,Emby-Hk
 
-# 域名规则示例
-DOMAIN-SUFFIX,emby.media,Emby-Hk-Node
+# 关联美国节点 (Emby-Us)
+RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Us.list,Emby-Us
+
+# 关联国内直连 (Emby-Cn)
+RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Cn.list,Emby-Cn
+
+# === 核心域名强制分流 ===
+# 确保核心 API 始终走指定策略
+DOMAIN-SUFFIX,emby.media,Emby-Hk
+DOMAIN-KEYWORD,emby,Emby-Hk
