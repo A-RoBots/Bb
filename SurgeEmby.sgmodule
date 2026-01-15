@@ -1,22 +1,22 @@
 #!name=Emby 专用多点分流模块
-#!desc=自动创建 HK/US/CN 策略组并关联 GitHub 远程规则集
+#!desc=自动创建 HK/US/CN 策略组并关联最新 GitHub 规则集
 
 [Proxy Group]
-# 这里的“香港节点”等名字必须和你 Surge 策略组页面显示的名字完全一致
+# 自动创建三个策略组，并关联你现有的节点
+# 请确保“香港节点”、“美国节点”、“兜底分流”这几个名字和你 Surge 首页卡片对齐
 Emby-Hk-Node = select, 香港节点, DIRECT
 Emby-Us-Node = select, 美国节点, DIRECT
 Emby-Cn-Node = select, DIRECT, 兜底分流
 
 [Rule]
-# 1. 香港 Emby 规则集
-RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/QuantumultX/Qx-Emby-Hk.list,Emby-Hk-Node
+# 1. 香港 Emby 规则集 (引用你提供的最新路径)
+RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Hk.list,Emby-Hk-Node
 
-# 2. 美国 Emby 规则集
-RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/QuantumultX/Qx-Emby-Us.list,Emby-Us-Node
+# 2. 美国 Emby 规则集 (引用你提供的最新路径)
+RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Us.list,Emby-Us-Node
 
-# 3. 国内 Emby/直连 规则集
-RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/QuantumultX/Qx-Emby-Cn.list,Emby-Cn-Node
+# 3. 国内 Emby/直连 规则集 (引用你提供的最新路径)
+RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Cn.list,Emby-Cn-Node
 
-# 单个域名手动分流示例
+# 单个域名分流示例
 DOMAIN-SUFFIX,emby.media,Emby-Hk-Node
-
