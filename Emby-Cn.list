@@ -5,9 +5,9 @@ DOMAIN-SUFFIX,tv.worldline.space
 DOMAIN-SUFFIX,hkvol.sexemby.com
 
 #月饼
-host-suffix,a.emby.my
-host-suffix,emby.my
-host-suffix,uhebs.emby.my
+DOMAIN-SUFFIX,a.emby.my
+DOMAIN-SUFFIX,emby.my
+DOMAIN-SUFFIX,uhebs.emby.my
 
 #墨云阁
 DOMAIN-SUFFIX,mcdn.mobaiemby.site
