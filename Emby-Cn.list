@@ -86,5 +86,19 @@ DOMAIN-SUFFIX,emby.z1000.cc.cd
 DOMAIN-SUFFIX,emby3.525778.xyz
 DOMAIN-SUFFIX,emby4.zz888.de5.net
 
+# 天翼云核心控制台与登录
+DOMAIN-SUFFIX,189.cn,DIRECT
+DOMAIN-SUFFIX,cloud.189.cn,DIRECT
+
+# 关键下载与直链跳转域名 (天翼 302 核心)
+DOMAIN-SUFFIX,ctcontents.com,DIRECT
+DOMAIN-SUFFIX,oos-cn.ctyunapi.cn,DIRECT
+
+# 天翼云 CDN 与存储节点
+DOMAIN-KEYWORD,tycloud,DIRECT
+DOMAIN-SUFFIX,天翼云.中国,DIRECT
+DOMAIN-SUFFIX,ctyun.cn,DIRECT
+
+
 
 
