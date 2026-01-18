@@ -249,8 +249,8 @@ DOMAIN,a.l0323.top,DIRECT
 #ETFLIX
 DOMAIN,embyty.entertang.work,DIRECT
 #鲨鱼Emby
-DOMAIN-SUFFIX,emby2.shayuemby.top
-DOMAIN-SUFFIX,emby3.525778.xyz
+DOMAIN-SUFFIX,shayuemby.top
+DOMAIN-SUFFIX,525778.xyz
 
 # ==========================================
 # 第三部分：强制德国节点 (Emby-De-Node)
