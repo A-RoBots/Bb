@@ -1,6 +1,6 @@
 #!name=Emby 综合分流插件 (Final Fix)
 #!desc=修正了策略组名称拼写错误，支持 HK/US/DE 及直连自动分流。
-#!author=Gemini
+#!author=MenShen
 #!icon=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Emby.png
 #!date=2026-01-04 00:00:00
 
