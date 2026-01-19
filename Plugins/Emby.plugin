@@ -185,6 +185,9 @@ DOMAIN-SUFFIX,empn.mom,Emby-Us
 DOMAIN,emby.605305.xyz,Emby-Us
 #狗剩Media
 DOMAIN-SUFFIX,emby.mm880.xyz,Emby-Us
+#狗剩302
+DOMAIN-SUFFIX,gousen.cc.cd,Emny-Us
+
 #APTV
 DOMAIN-SUFFIX,smart.pendy.dpdns.org,Emby-Us
 DOMAIN-SUFFIX,sport.pendy.dpdns.org,Emby-Us
@@ -251,6 +254,8 @@ DOMAIN,embyty.entertang.work,DIRECT
 #鲨鱼Emby
 DOMAIN-SUFFIX,shayuemby.top,DIRECT
 DOMAIN-SUFFIX,525778.xyz,DIRECT
+#fjy
+DOMAIN-SUFFIX,emby.hlxll.top
 
 # ==========================================
 # 第三部分：德国代理策略 (Emby-De)
@@ -287,3 +292,9 @@ DOMAIN-SUFFIX,bai1.yezi.my,Emby-De
 # ==========================================
 #起点站
 DOMAIN-SUFFIX,nb.28.al,Emby-Hk
+#W佬
+DOMAIN-SUFFIX,kongcheng666.dpdns.org
+#404
+DOMAIN-SUFFIX,ns1e.notfounda.shop
+#helloHk
+IP-CIDR,199.188.198.202/32,Emby-Hk,no-resolve
