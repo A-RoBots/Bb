@@ -293,8 +293,8 @@ DOMAIN-SUFFIX,bai1.yezi.my,Emby-De
 #起点站
 DOMAIN-SUFFIX,nb.28.al,Emby-Hk
 #W佬
-DOMAIN-SUFFIX,kongcheng666.dpdns.org
+DOMAIN-SUFFIX,kongcheng666.dpdns.org,Emby-Hk
 #404
-DOMAIN-SUFFIX,ns1e.notfounda.shop
+DOMAIN-SUFFIX,ns1e.notfounda.shop,Emby-Hk
 #helloHk
 IP-CIDR,199.188.198.202/32,Emby-Hk,no-resolve
