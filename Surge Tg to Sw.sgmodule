@@ -1,8 +1,9 @@
 #!name=TG 外链直跳 Swiftgram
-#!desc=将 t.me 链接重定向至 Swiftgram 客户端。
+#!desc=将 t.me 链接重定向至 Swiftgram 客户端。基于 GitHub 源代码转换。
 #!system=ios,iPadOS
 
 https://ahrefs.com/writing-tools/paragraph-rewriter
+# 跳转
 ^https?:\/\/t\.me\/(.+) sg://resolve?domain=$1 302
 
 [MITM]
