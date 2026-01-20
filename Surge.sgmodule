@@ -1,0 +1,33 @@
+#!name=快捷搜索重定向 (DuckDuckGo 版)
+#!desc=将 DuckDuckGo 的特定前缀搜索请求重定向至百度、谷歌等引擎。由图片配置转化。
+#!category=Search
+
+[Rule]
+# 如果需要确保这些请求不走代理，可以取消下面这行的注释
+# DOMAIN,duckduckgo.com,DIRECT
+
+https://ahrefs.com/writing-tools/paragraph-rewriter
+# 百度搜索 (bd)
+^https:\/\/duckduckgo\.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 307
+
+# 百度图片 (bdimg)
+^https:\/\/duckduckgo\.com\/\?q=bdimg\+([^&]+).+ https://image.baidu.com/search/index?tn=baiduimage&word=$1 307
+
+# 谷歌图片 (gimg)
+^https:\/\/duckduckgo\.com\/\?q=gimg\+([^&]+).+ https://www.google.com/search?tbm=isch&q=$1 307
+
+# 百度直接搜索 (b)
+^https:\/\/duckduckgo\.com\/\?q=b\+([^&]+).+ https://www.baidu.com/s?wd=$1 307
+
+# 维基百科 (wk)
+^https:\/\/duckduckgo\.com\/\?q=wk\+([^&]+).+ https://zh.wikipedia.org/wiki/$1 307
+
+# 其它前缀 (qm, gh 等可根据需要自行补全，此处按图片逻辑推导)
+^https:\/\/duckduckgo\.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 307
+
+# 默认 DuckDuckGo 兜底 (或跳转至 Google)
+# ^https:\/\/duckduckgo\.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 307
+
+[MITM]
+hostname = %APPEND% duckduckgo.com
+
