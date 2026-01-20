@@ -296,3 +296,5 @@ DOMAIN-SUFFIX,kongcheng666.dpdns.org,Emby-Hk
 DOMAIN-SUFFIX,notfounda.shop,Emby-Hk
 #helloHk
 IP-CIDR,199.188.198.202/32,Emby-Hk,no-resolve
+#Vemby
+DOMAIN-SUFFIX,netcupcn.de,Emby-Hk
