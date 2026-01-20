@@ -1,11 +1,9 @@
-#!name=DuckDuckGo 快捷搜索重定向
-#!desc=将 DuckDuckGo 搜索请求根据前缀重定向至百度、谷歌图片、维基百科等搜索引擎。
-#!author=可莉
+#!name=DuckDuckGo 快捷搜索
+#!desc=将 DuckDuckGo 搜索重定向至百度、维基、GitHub 等。
 #!system=ios
 
-[URL Rewrite]
 https://ahrefs.com/writing-tools/paragraph-rewriter
-# 百度搜索 (bd)
+# 百度 (bd)
 ^https:\/\/duckduckgo\.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 307
 
 # 百度图片 (bdimg)
@@ -14,7 +12,7 @@ https://ahrefs.com/writing-tools/paragraph-rewriter
 # 谷歌图片 (gimg)
 ^https:\/\/duckduckgo\.com\/\?q=gimg\+([^&]+).+ https://www.google.com/search?tbm=isch&q=$1 307
 
-# 百度直接搜索 (b)
+# 百度直接 (b)
 ^https:\/\/duckduckgo\.com\/\?q=b\+([^&]+).+ https://www.baidu.com/s?wd=$1 307
 
 # 维基百科 (wk)
@@ -23,10 +21,10 @@ https://ahrefs.com/writing-tools/paragraph-rewriter
 # 其它前缀 (qm)
 ^https:\/\/duckduckgo\.com\/\?q=qm\+([^&]+).+ https://www.google.com/search?q=$1 307
 
-# GitHub 搜索 (gh)
+# GitHub (gh)
 ^https:\/\/duckduckgo\.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 307
 
-# 默认跳转 (无前缀时可跳转至 Google)
+# 默认跳转
 ^https:\/\/duckduckgo\.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 307
 
 [MITM]
