@@ -82,22 +82,12 @@ DOMAIN,a.l0323.top
 DOMAIN,embyty.entertang.work
 
 #鲨鱼Emby
-DOMAIN-SUFFIX,emby.z1000.cc.cd
-DOMAIN-SUFFIX,emby3.525778.xyz
-DOMAIN-SUFFIX,emby4.zz888.de5.net
+DOMAIN-SUFFIX,shayuemby.top
+DOMAIN-SUFFIX,525778.xyz
 
-# 天翼云核心控制台与登录
-DOMAIN-SUFFIX,189.cn,DIRECT
-DOMAIN-SUFFIX,cloud.189.cn,DIRECT
+#fjy
+DOMAIN-SUFFIX,emby.hlxll.top
 
-# 关键下载与直链跳转域名 (天翼 302 核心)
-DOMAIN-SUFFIX,ctcontents.com,DIRECT
-DOMAIN-SUFFIX,oos-cn.ctyunapi.cn,DIRECT
-
-# 天翼云 CDN 与存储节点
-DOMAIN-KEYWORD,tycloud,DIRECT
-DOMAIN-SUFFIX,天翼云.中国,DIRECT
-DOMAIN-SUFFIX,ctyun.cn,DIRECT
 
 
 
