@@ -237,8 +237,6 @@ DOMAIN-SUFFIX,4kgj.4kemby.fun,DIRECT
 IP-CIDR,120.53.89.215/32,DIRECT,no-resolve
 #麦当劳
 DOMAIN-SUFFIX,saodu.work,DIRECT
-#CookieEmby
-DOMAIN-SUFFIX,info.us.kg,DIRECT
 #小姨子
 DOMAIN-SUFFIX,6.emby.yun,DIRECT
 #小姨子公费
@@ -298,3 +296,5 @@ DOMAIN-SUFFIX,notfounda.shop,Emby-Hk
 IP-CIDR,199.188.198.202/32,Emby-Hk,no-resolve
 #Vemby
 DOMAIN-SUFFIX,netcupcn.de,Emby-Hk
+#CookieEmby
+DOMAIN-SUFFIX,nas.edu.kg,Emby-Hk
