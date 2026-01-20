@@ -3,6 +3,7 @@
 #!author=可莉
 #!system=ios
 
+[URL Rewrite]
 https://ahrefs.com/writing-tools/paragraph-rewriter
 # 百度搜索 (bd)
 ^https:\/\/duckduckgo\.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 307
