@@ -1,10 +1,11 @@
-#!name=TG 外链直跳 Swiftgram
-#!desc=将 t.me 链接重定向至 Swiftgram 客户端。基于 GitHub 源代码转换。
+#!name=Telegram 链接直跳 Swiftgram
+#!desc=自动将 t.me 网页链接重定向至 Swiftgram 客户端，提升跳转体验。
 #!system=ios,iPadOS
 
 https://ahrefs.com/writing-tools/paragraph-rewriter
-# 跳转
+# 匹配 t.me 链接并重写为 Swiftgram 协议地址
 ^https?:\/\/t\.me\/(.+) sg://resolve?domain=$1 302
 
 [MITM]
+# 必须解密的域名
 hostname = %APPEND% t.me
