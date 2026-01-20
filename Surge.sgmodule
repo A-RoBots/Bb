@@ -1,10 +1,6 @@
-#!name=快捷搜索重定向 (DuckDuckGo 版)
-#!desc=将 DuckDuckGo 的特定前缀搜索请求重定向至百度、谷歌等引擎。由图片配置转化。
+#!name=快捷搜索重定向
+#!desc=将 DuckDuckGo 搜索重定向至其他搜索引擎。
 #!category=Search
-
-[Rule]
-# 如果需要确保这些请求不走代理，可以取消下面这行的注释
-# DOMAIN,duckduckgo.com,DIRECT
 
 https://ahrefs.com/writing-tools/paragraph-rewriter
 # 百度搜索 (bd)
@@ -22,12 +18,14 @@ https://ahrefs.com/writing-tools/paragraph-rewriter
 # 维基百科 (wk)
 ^https:\/\/duckduckgo\.com\/\?q=wk\+([^&]+).+ https://zh.wikipedia.org/wiki/$1 307
 
-# 其它前缀 (qm, gh 等可根据需要自行补全，此处按图片逻辑推导)
+# 知乎搜索 (zh)
+^https:\/\/duckduckgo\.com\/\?q=zh\+([^&]+).+ https://www.zhihu.com/search?q=$1 307
+
+# GitHub (gh)
 ^https:\/\/duckduckgo\.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 307
 
-# 默认 DuckDuckGo 兜底 (或跳转至 Google)
-# ^https:\/\/duckduckgo\.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 307
+# 默认跳转至 Google (可选)
+^https:\/\/duckduckgo\.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 307
 
 [MITM]
 hostname = %APPEND% duckduckgo.com
-
