@@ -1,0 +1,18 @@
+#!name=Telegram 外链直跳 Swiftgram
+#!desc=将 t.me 链接重定向至 Swiftgram 第三方客户端。
+#!system=ios
+
+[Rule]
+# Swiftgram 相关域名规则
+DOMAIN-SUFFIX,swiftgram.app,PROXY
+DOMAIN-SUFFIX,iturrit.com,PROXY
+
+https://ahrefs.com/writing-tools/paragraph-rewriter
+# Telegram 外链跳转逻辑
+# 匹配 t.me 链接并触发跳转
+^https?:\/\/(www\.)?t\.me\/([^?]+) https://swiftgram.app/redirect?url=https://t.me/$2 302
+
+[MITM]
+# 必须包含的主机名
+hostname = %APPEND% t.me
+
