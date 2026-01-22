@@ -300,3 +300,5 @@ IP-CIDR,199.188.198.202/32,Emby-Hk,no-resolve
 DOMAIN-SUFFIX,vemby01.de,Emby-Hk
 #CookieEmby
 DOMAIN-SUFFIX,nas.edu.kg,Emby-Hk
+#Msky
+DOMAIN-SUFFIX,3msky.com
