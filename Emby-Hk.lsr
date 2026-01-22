@@ -1,16 +1,8 @@
-# NAME: Emby 香港分流规则集
-# DESC: 常用服务及特定IP的香港专线分流规则
+# NAME: Emby-HK
+# DESC: 香港分流
 # ICON: https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/IconSet/App/Emby.png
-# UPDATE_INTERVAL: 86400
 
-# 起点站
 DOMAIN-SUFFIX,nb28.al
-
-# W佬
 DOMAIN-SUFFIX,kongcheng666.dpdns.org
-
-# 404
 DOMAIN-SUFFIX,notfounda.shop
-
-# helloHk
 IP-CIDR,199.188.198.202/32,no-resolve
