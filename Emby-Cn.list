@@ -69,10 +69,10 @@ DOMAIN-SUFFIX,saodu.work
 DOMAIN-SUFFIX,info.us.kg
 
 #小姨子
-DOMAIN-SUFFIX,6.emby.yun
+DOMAIN,6.emby.yun
 
 #小姨子公费
-DOMAIN-SUFFIX,3.emby.yun
+DOMAIN,8.emby.yun
 
 #不吃香菜
 DOMAIN,E.iemby.cn
