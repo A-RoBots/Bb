@@ -1,9 +1,0 @@
-# =========================
-# Emby 分流规则（LSR）
-# =========================
-
-DOMAIN-SUFFIX,nb28.al
-DOMAIN-SUFFIX,kongcheng666.dpdns.org
-DOMAIN-SUFFIX,notfounda.shop
-
-IP-CIDR,199.188.198.202/32,no-resolve
