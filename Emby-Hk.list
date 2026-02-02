@@ -1,5 +1,5 @@
 #起点站
-DOMAIN-SUFFIX,nb.28.al
+DOMAIN-SUFFIX,28.al
 
 #W佬
 DOMAIN-SUFFIX,kongcheng666.dpdns.org
@@ -27,6 +27,9 @@ DOMAIN,guaiguaiemby.83787.de
 
 #Yomo
 DOMAIN-SUFFIX,emby.yamo.uk
+
+#炊烟袅袅
+DOMAIN,cdn.cynn.top
 
 #we
 DOMAIN,cf.wedg.top
