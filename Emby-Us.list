@@ -245,6 +245,9 @@ DOMAIN-SUFFIX,emby.mm880.xyz
 #蚂蚁
 DOMAIN-SUFFIX,miraiemby.com
 
+#酥糖
+DOMAIN,st.sakim.org
+
 #APTV
 DOMAIN-SUFFIX,smart.pendy.dpdns.org
 DOMAIN-SUFFIX,sport.pendy.dpdns.org
