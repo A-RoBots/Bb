@@ -14,7 +14,7 @@ IP-CIDR,199.188.198.202/32,no-resolve
 DOMAIN-SUFFIX,vemby01.de
 
 #CookieEmby
-DOMAIN-SUFFIX,nas.edu.kg
+DOMAIN,emby.nas.edu.kg
 
 #Msky
 DOMAIN-SUFFIX,3msky.com
