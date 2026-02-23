@@ -14,6 +14,3 @@ RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Us.l
 RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Cn.list,Emby-Cn
 
 # === 核心域名强制分流 ===
-# 确保核心 API 始终走指定策略
-DOMAIN-SUFFIX,emby.media,Emby-Xc
-DOMAIN-KEYWORD,emby,Emby-Xc
