@@ -13,4 +13,7 @@ RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Us.l
 # 关联国内直连 (Emby-Cn)
 RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Cn.list,Emby-Cn
 
+# 关联新城节点（Emby-Xc）
+https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Xc.list
+
 # === 核心域名强制分流 ===
