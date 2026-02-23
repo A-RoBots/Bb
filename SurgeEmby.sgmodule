@@ -14,6 +14,6 @@ RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Us.l
 RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Cn.list,Emby-Cn
 
 # 关联新城节点（Emby-Xc）
-RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Xc.list
+RULE-SET,https://raw.githubusercontent.com/A-RoBots/Bb/refs/heads/main/Emby-Xc.list,Emby-Xc
 
 # === 核心域名强制分流 ===
