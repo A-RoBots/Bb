@@ -65,8 +65,8 @@ IP-CIDR,120.53.89.215/32,No-resolve
 #麦当劳
 DOMAIN-SUFFIX,saodu.work
 
-#小姨子
-DOMAIN,6.emby.yun
+#小姨子公益
+DOMAIN,gy.emby.yun
 
 #小姨子公费
 DOMAIN,8.emby.yun
