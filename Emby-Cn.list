@@ -92,6 +92,9 @@ DOMAIN,cloud.s1.xxzi.top
 #炊烟302
 IP-CIDR,120.24.31.23/24,No-resolve
 
+#蚂蚁
+DOMAIN,mivip1.jiedaibao.gs
+
 
 
 
