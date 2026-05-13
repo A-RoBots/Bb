@@ -91,7 +91,7 @@ DOMAIN-SUFFIX,emby.cancanbi.com
 DOMAIN-SUFFIX,cavps.eu.org
 
 #墨云阁
-DOMAIN-SUFFIX,m.mobaiemby.site
+DOMAIN-SUFFIX,a.mobaiemby.site:443
 
 #叔服
 DOMAIN,emby.shufu.club
