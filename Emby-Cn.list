@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,uhebs.emby.my
 #墨云阁
 DOMAIN-SUFFIX,mcdn.mobaiemby.site
 DOMAIN-SUFFIX,mygcns.mobaiemby.site
+IP-CIDR,185.148.13.104/32,No-resolve
 
 #lily
 DOMAIN,cdn.lilyemby.com
