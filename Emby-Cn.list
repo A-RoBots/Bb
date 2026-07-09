@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,uhebs.emby.my
 DOMAIN-SUFFIX,mcdn.mobaiemby.site
 DOMAIN-SUFFIX,mygcns.mobaiemby.site
 IP-CIDR,185.148.13.104/32,No-resolve
+DOMAIN,a.mobaiemby.site
 
 #lily
 DOMAIN,cdn.lilyemby.com
