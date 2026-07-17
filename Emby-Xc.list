@@ -1,2 +1,5 @@
 #jms
 DOMAIN-SUFFIX,nano.jmsuper.com
+#终点站
+DOMAIN,c.emby.wtf
+DOMAIN-SUFFIX,term.wtf
