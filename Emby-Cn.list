@@ -97,6 +97,7 @@ DOMAIN-SUFFIX,emby.hlxll.top
 DOMAIN,cloud.s1.xxzi.top
 DOMAIN,cloud.455676.xyz
 DOMAIN,frpwf.xhyonline.com
+IP-CIDR,123.56.106.49/24,No-resolve
 
 #炊烟302
 IP-CIDR,120.24.31.23/24,No-resolve
