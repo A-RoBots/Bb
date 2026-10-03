@@ -1,11 +1,9 @@
-#!name=Telegram 链接直跳 Swiftgram
-#!desc=自动将 t.me 网页链接重定向至 Swiftgram 客户端，提升跳转体验。
-#!system=ios,iPadOS
+#!name=Telegram跳转Swiftgram
+#!desc=Telegram外部链接跳转至Swiftgram
+#!openUrl=https://apps.apple.com/app/id6471879502
 
-https://ahrefs.com/writing-tools/paragraph-rewriter
-# 匹配 t.me 链接并重写为 Swiftgram 协议地址
-^https?:\/\/t\.me\/(.+) sg://resolve?domain=$1 302
+[URL Rewrite]
+(https:\/\/)?t\.me\/(.+) sg://resolve?domain=$2 302
 
 [MITM]
-# 必须解密的域名
 hostname = %APPEND% t.me
