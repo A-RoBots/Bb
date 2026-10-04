@@ -2,6 +2,10 @@
 IP-CIDR,192.168.1.11/32,No-resolve
 DOMAIN,699697.xyz
 
+#Aptv
+DOMAIN-SUFFIX,cctv.com
+DOMAIN-SUFFIX,cctv.cn
+
 #世界线
 DOMAIN-SUFFIX,tv.worldline.space
 
