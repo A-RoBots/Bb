@@ -1,57 +1,60 @@
-# ==========================================
-# 抖音及字节跳动生态规则
-# ==========================================
-
 # ===== 1. 抖音核心域名 =====
-DOMAIN-SUFFIX,amemv.com
-DOMAIN-SUFFIX,amemv.cn
-DOMAIN-SUFFIX,amemv.net
 DOMAIN-SUFFIX,douyin.com
 DOMAIN-SUFFIX,iesdouyin.com
 DOMAIN-SUFFIX,iesdouyin.net
 DOMAIN-SUFFIX,douyinact.com
 DOMAIN-SUFFIX,douyinact.net
 DOMAIN-SUFFIX,douyinliving.com
-DOMAIN-SUFFIX,sgsnssdk.com
-DOMAIN-SUFFIX,snssdk.com
-DOMAIN-SUFFIX,bdurl.net
-DOMAIN-SUFFIX,douyinfe.com
 DOMAIN-SUFFIX,idouyinliving.com
-
+DOMAIN-SUFFIX,douyinfe.com
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,amemv.cn
+DOMAIN-SUFFIX,amemv.net
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,sgsnssdk.com
+DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,bdurl.net
 
 # ===== 2. 图片、头像、封面 CDN =====
 DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,idouyinpic.com
 DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,idouyinstatic.com
 DOMAIN-SUFFIX,ibyteimg.com
 DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,bytemaimg.com
 DOMAIN-SUFFIX,bytecdn.cn
 DOMAIN-SUFFIX,bytecdn.com
 DOMAIN-SUFFIX,zijiecdn.com
+DOMAIN-SUFFIX,zijiecdn.cn
 DOMAIN-SUFFIX,zjcdn.com
+DOMAIN-SUFFIX,zijieimg.com
+DOMAIN-SUFFIX,zijieimg.cn
 DOMAIN-SUFFIX,byted-static.com
-DOMAIN-SUFFIX,idouyinpic.com
-DOMAIN-SUFFIX,idouyinstatic.com
-DOMAIN-SUFFIX,ihuoshanimg.com
-DOMAIN-SUFFIX,ihuoshanstatic.com
-DOMAIN-SUFFIX,huoshanimg.com
-DOMAIN-SUFFIX,huoshanstatic.com
-DOMAIN-SUFFIX,huoshancdn.com
 
-
-# ===== 3. 视频播放、直播 CDN =====
+# ===== 3. 视频、直播 CDN =====
+DOMAIN-SUFFIX,douyincdn.com
 DOMAIN-SUFFIX,douyinvod.com
 DOMAIN-SUFFIX,idouyinvod.com
+DOMAIN-SUFFIX,douyinvideo.net
 DOMAIN-SUFFIX,bytetos.com
+DOMAIN-SUFFIX,byteeffecttos.com
+DOMAIN-SUFFIX,bytecdntp.com
+DOMAIN-SUFFIX,bytehwm.com
+DOMAIN-SUFFIX,bytetcc.com
 DOMAIN-SUFFIX,volcvideo.com
+DOMAIN-SUFFIX,bdxiguavod.com
 DOMAIN-SUFFIX,huoshanlive.com
 DOMAIN-SUFFIX,huoshanvod.com
 DOMAIN-SUFFIX,ihuoshanlive.com
 DOMAIN-SUFFIX,ihuoshanvod.com
-DOMAIN-SUFFIX,bytehwm.com
-DOMAIN-SUFFIX,bytetcc.com
+DOMAIN-SUFFIX,huoshanimg.com
+DOMAIN-SUFFIX,huoshanstatic.com
+DOMAIN-SUFFIX,ihuoshanimg.com
+DOMAIN-SUFFIX,ihuoshanstatic.com
+DOMAIN-SUFFIX,huoshancdn.com
 
-
-# ===== 4. 字节跳动基础设施、网络及接口 =====
+# ===== 4. 字节基础设施、接口 =====
 DOMAIN-SUFFIX,bytedance.com
 DOMAIN-SUFFIX,bytedance.net
 DOMAIN-SUFFIX,bytedance.cn
@@ -65,39 +68,36 @@ DOMAIN-SUFFIX,byted.org
 DOMAIN-SUFFIX,bytescm.com
 DOMAIN-SUFFIX,bytegoofy.com
 DOMAIN-SUFFIX,bytegecko.com
+DOMAIN-SUFFIX,bytexservice.com
 DOMAIN-SUFFIX,zijieapi.com
 DOMAIN-SUFFIX,feelgood.cn
 DOMAIN-SUFFIX,ibytedapm.com
-DOMAIN-SUFFIX,hypercachenode.com
-DOMAIN-SUFFIX,supercachenet.com
-DOMAIN-SUFFIX,supercachenode.com
-DOMAIN-SUFFIX,ultracachenode.com
 DOMAIN-SUFFIX,yhgfb-cn-static.com
+DOMAIN-SUFFIX,usergrowth.com.cn
 
-
-# ===== 5. 今日头条、西瓜视频 =====
+# ===== 5. 头条、西瓜 =====
+DOMAIN-SUFFIX,toutiao.com
 DOMAIN-SUFFIX,ixigua.com
 DOMAIN-SUFFIX,ixiguavideo.com
-DOMAIN-SUFFIX,toutiao.com
 DOMAIN-SUFFIX,pstatp.com
-
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,pglstatp-toutiao.com
+DOMAIN-SUFFIX,365yg.com
 
 # ===== 6. 豆包 =====
 DOMAIN-SUFFIX,doubao.cn
 DOMAIN-SUFFIX,doubao.com
 
-
 # ===== 7. 抖音电商 =====
 DOMAIN-SUFFIX,jinritemai.com
+DOMAIN-SUFFIX,douyinec.com
 DOMAIN-SUFFIX,ecombdapi.com
 DOMAIN-SUFFIX,ecombdimg.com
 DOMAIN-SUFFIX,ecombdstatic.com
 DOMAIN-SUFFIX,ecombdvod.com
 
-
-# ===== 8. 广告营销 =====
+# ===== 8. 广告 =====
 DOMAIN-SUFFIX,oceanengine.com
 
-# ==========================================
-# 规则结束
-# ==========================================
+# ===== 9. 兜底（放在漏网之鱼之前）=====
+GEOIP,CN
