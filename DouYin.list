@@ -99,5 +99,3 @@ DOMAIN-SUFFIX,ecombdvod.com
 # ===== 8. 广告 =====
 DOMAIN-SUFFIX,oceanengine.com
 
-# ===== 9. 兜底（放在漏网之鱼之前）=====
-GEOIP,CN
